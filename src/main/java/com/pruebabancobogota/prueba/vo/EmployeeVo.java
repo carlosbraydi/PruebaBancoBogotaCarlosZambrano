@@ -9,10 +9,6 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 public class EmployeeVo {
-
-    @NotNull
-    private Integer idEmployee;
-
     @NotNull
     private String fullName;
 

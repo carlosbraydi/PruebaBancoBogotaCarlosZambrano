@@ -39,7 +39,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
     @Override
     public Employee postEmployee(EmployeeVo employee) {
         Employee mEmployee = new Employee();
-        mEmployee.setIdEmployee(employee.getIdEmployee());
+
         mEmployee.setFullName(employee.getFullName());
         mEmployee.setFunction(employee.getFunction());
 

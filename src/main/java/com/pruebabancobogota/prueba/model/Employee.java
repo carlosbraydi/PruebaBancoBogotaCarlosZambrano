@@ -35,6 +35,6 @@ public class Employee {
     )
     private List<Employee> employees;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne(optional = true, cascade = CascadeType.REFRESH, fetch = FetchType.LAZY)
     private Employee boss;
 }
